@@ -1,0 +1,293 @@
+    1  ls -l
+    2  cd documnets/
+    3  cd Documnets    4  cd Document/
+    5  cd Documents/
+    6  mk School
+    7  ls -all
+    8  make --h
+    9  make school
+   10  man ls
+   11  ls -l --author
+   12  who
+   13  man who
+   14  date
+   15  cal 2 2015
+   16  cal 6 1900
+   17  pwd
+   18  cd ..
+   19  pwd
+   20  cd Documents/
+   21  mk dir
+   22  mkdir school
+   23  ls -l
+   24  cd school/~
+   25  cd school/
+   26  cd -
+   27  cd school/
+   28  touch text1.txt
+   29  touch text2.txt
+   30  cd-
+   31  cd 
+   32  pwd
+   33  cd Documents/
+   34  pwd
+   35  rm school
+   36  rm school/
+   37  rmdir school
+   38  man rmdir
+   39  rm -school
+   40  rm -v school
+   41  rm -r -i school
+   42  rm -r school
+   43  ls -l
+   44  mkdir school
+   45  cd school/
+   46  touch text1.txt
+   47  touch text2.txt
+   48  touch text3.txt
+   49  touch text4.txt
+   50  rm -r -i 
+   51  rm -i -r
+   52  cd -
+   53  cd ~
+   54  pwd
+   55  sudo
+   56  locate text1.txt
+   57  pwd
+   58  find text1.txt
+   59  pwd
+   60  ls -l
+   61  find school
+ 
+
+
+
+
+   67  cd -
+   68  find /text1.txt
+   69  find ./text1.txt
+   70  locate text1.txt
+   71  pwd
+   72  find Documents/school/text1.txt
+   73  find Documents/school/
+   74  find Documents/
+   75  find Documents/text1.txt
+   76  find text1.txt -iname
+   77  find -iname text1.txt
+   78  pwd
+   79  find -name text1.txt
+   80  find text1.txt
+   81  find -name text1.txt
+   82  find -name Text1.txt
+   83  find -iname Text1.txt
+   84  locate -name text1.txt
+   85  find -name ?xt1*
+   86  find -iname ?xt1*
+   87  find -iname ?xt.txt
+   88  find -iname ?xt*.txt
+   89  find -iname ?xt?.txt
+   90  find -iname text[1-4].txt
+   91  find -iname text?.txt
+ find -iname *.txt
+   95  find *.*
+   96  find -iname *.*
+   97  clear
+   98  who
+   99  man who
+  100  q
+  101  who
+  102  finger
+  103  sudo apt-get finger
+  104  apt-get install finger
+  105  sudo apt-get finger
+  106  sudo
+  107  sudo apt-get github
+  108  sudo apt-get install github
+  109  sudo apt-get install finger
+  110  finger
+  111  man finger
+  112  who m i
+  113  who am i
+  114  whoami
+  115  finger
+  116  who am i
+  117  whoim
+  118  whoami
+  119  
+  120  ls -l 
+  121  cd Documents
+  122  cd school
+  123  ls -l text1.txt
+  124  ]
+  125  mv text1.txt text10.txt
+  126  ls -s
+  127  ls -l text2.txt
+  128  pwd
+  129  cp -r /home/mint/Documents school 
+  130  cp -r /home/mint/Desktop school 
+  131  ls -l 
+  132  ls -l school
+  133  ls -l school/
+  134  cd school
+  135  ls
+  136  cat text1.txt
+  137  cat text10.txt
+  138  ls -l
+  139  cd -
+  140  cat text1.txt
+  141  ls -l
+  142  cat text10.txt
+  143  cat text10
+  144  ls -l | wc-l
+  145  wc
+  146  ls -l > wc -l
+  147  wc -l text10.txt
+  148  man wc
+  149  wc -l | ls -l
+  150  ls -l | wc -l
+  151  ls -l
+  152  ls -a wc
+  153  ls -l wc
+  154  cd ¬
+  155  cd -
+  156  cd-
+  157  cd ..
+  158  pwd
+  159  mk ds
+  160  touch /mint/Desktop/commands.doc
+  161  pwd
+  162  touch ./mint/Desktop/commands.doc
+  163  touch home/mint/Desktop/commands.doc
+  164  touch home/mint/Desktop/ commands.doc
+  165  pwd
+  166  ls -l mint/
+  167  ls -l home/mint/
+  168  ls -l home/mint
+  169  /home/mint/*.*
+  170  cd ./mint
+  171  cd home/mint
+  172  pwd
+  173  cd home/
+  174  cd mint/
+  175  cd -
+  176  cd..
+  177  cd ..
+  178  pwd
+  179  ls -l
+  180  mkdir home/mint/Desktop/school
+  181  pwd
+  182  mkdir home/mint/Desktop/ home
+  183  mkdir /home/mint/Desktop/school
+  184  touch /home/mint/Desktop/school commands.doc
+  185  touch /home/mint/Desktop/school/commands.doc
+  186  edit /home/mint/Desktop/school/commands.doc
+  187  cat /home/mint/Desktop/school/commands.doc
+  188  ls -l
+  189  rm commands.doc
+  190  ls -l
+  191  pwd
+  192  cd Desktop
+  193  chmod 774 school
+  194  chmod 444 schol
+  195  chmod 444 school
+  196  chmod 744 school
+  197  echo hello
+  198  echo 5+4
+  199  echo 5+4 > cal
+  200  echo all > cal
+  201  echo -all > cal
+  202  date
+  203  hostname
+  204  uname
+  205  uname -a
+  206  uptime
+  207  who am i
+  208  id
+  209  last
+  210  who
+  211  man "automatic door"
+  212  who can tell me what day it is
+  213  date
+  214  cal 05 2008
+  215  man bc
+  216  4 2 bc-l
+  217  3 2 bc -l
+  218  bc -l
+  219  12+4 bc -l
+  220  echo 4+4 | bc -l
+  221  bc -l
+  222  bc -l > cal.soc
+  223  echo 5+4 | bc -l > cal.doc
+  224  cat cal.doc
+  225  echo asdasds> cal.doc
+  226  cat cal.doc
+  227  history
+  228  cd-
+  229  cd -
+  230  cd mint
+  231  cd Documents
+  232  cd school
+  233  ls -l
+  234  cat text10.txt text2.txt > text7.txt
+  235  ls
+  236  ls -a
+  237  ls -l
+  238  ls -l > listings.txt
+  239  cat listings.txt
+  240  history
+  241  history > /home/mint/Desktop/school/commands.txt
+  242  cat  /home/mint/Desktop/school/commands.txt
+  243  git init
+  244  sudo apt-get install git
+  245  git config --global suer.name "x00116850"
+  246  touch how_to_Install_git
+  247  cd..
+  248  cd ..
+  249  cd..
+  250  cd ..
+  251  pwd
+  252  cd Destop/school
+  253  cd Desktop/school
+  254  touch How_to_install_github
+  255  mv How_to_install_github How_to_install_github.doc
+  256  git config --global user.name "x00116850"
+  257  git config --global user.email "x00116850@gmail.com"
+  258  ls
+  259  mkdir github
+  260  gittest
+  261  mkdir gittest
+  262  rm -r github
+  263  cd gittest
+  264  ls
+  265  echo "# gittest" >> README.md
+  266  git init
+  267  git add README.md
+  268  git commit -m "first commit"
+  269  git remote add origin https://github.com/x00116850/gittest.git
+  270  git push -u origin master
+  271  ls
+  272  git push -u origin master
+  273  history
+  274  nano abc.txt 
+  275  ls #
+  276  nano abc.txt
+  277  add git abc.txt
+  278  git -add abc.txt
+  279  git add abc.txt
+  280  git commit -m "i added test file"
+  281  git remote add origin https://github.com/x00116850/gittest.git
+  282  git push -u origin master
+  283  nano 3thfile.txt
+  284  git commit -m "3th file created"
+  285  git add 3thfile.txt
+  286  git commit -m "3th file created"
+  287  git remote add origin https://github.com/x00116850/gittest.git
+  288  git push -u origin master
+  289  nano 4thfile.txt
+  290  ls
+  291  git add 4thfile.txt
+  292  git commit -m "4th file created"
+  293  git push -u origin master
+  294  git clone https://github.com/x00116850/learning-outcomes
+  295  git clone https://github.com/x00116850/learning-outcomes my_learning
+  296  history > commands_for_git.txt
